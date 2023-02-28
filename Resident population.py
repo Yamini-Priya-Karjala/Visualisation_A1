@@ -29,6 +29,7 @@ def plot_resident_population(data):
     plt.title('Resident Population by State and Year')
     plt.xlabel('Year')
     plt.ylabel('Resident Population')
+    plt.legend()
     plt.show()
 
 # calling the function
