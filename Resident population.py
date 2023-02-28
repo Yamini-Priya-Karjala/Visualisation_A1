@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 def plot_resident_population(data):
     """
-    Plot a multi-line graph of resident population by state and year.
+    Function to create a multi-line graph of resident population by state and year.
     
     Parameters:
     data (str): The file path of the CSV file containing the data.
