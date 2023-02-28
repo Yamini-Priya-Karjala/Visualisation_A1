@@ -15,6 +15,7 @@ def plot_resident_population(data):
     Parameters:
     data (str): The file path of the CSV file containing the data.
     """
+    plt.figure()
     # create a dataframe from the given data
     data = pd.read_csv("D:\Yamini Assignment\state population.csv")
 
