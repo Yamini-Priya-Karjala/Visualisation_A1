@@ -29,7 +29,7 @@ def plot_sepal_bar(df):
     plt.title('Mean Sepal Length for Different Iris Species')
     plt.xlabel('Species')
     plt.ylabel('Mean Sepal Length')
-    #plt.legend()
+    plt.legend()
     plt.show()
 
 # call the function to plot the data
